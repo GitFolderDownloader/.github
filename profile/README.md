@@ -63,7 +63,7 @@ function triggerDownload() {
     // Optional: Add limits for large folders
     const params = "&st=0&mx=200"; 
     
-    const apiUrl = `https://git-zip-pro.vercel.app/api/?url=${repo}${params}`;
+    const apiUrl = `https://gitfolderdownloader.GitHub.io/api/?url=${repo}${params}`;
  
     window.open(apiUrl, '_blank');
 }
